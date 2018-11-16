@@ -1,0 +1,29 @@
+{
+  "name": "places",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "clean": "npm cache clean && cd android && ./gradlew clean && cd .."
+  },
+  "dependencies": {
+    "babel-preset-react-native": "4",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-material-design": "0.3.7",
+    "react-native-navigation": "^1.1.488",
+    "react-native-vector-icons": "^6.0.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
